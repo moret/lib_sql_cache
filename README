@@ -1,0 +1,21 @@
+lib sql cache
+=============
+
+Experimental lib to cache data on SQLite.
+
+:: requirements ::
+
+You need to install:
+
+Check (http://check.sourceforge.net)
+SQLite (http://www.sqlite.org)
+
+You can get them manually or running the usual brew, apt-get or yum for your platform and install it. Of course, you also need GCC, make and all the basic C libs. Usually a build-essentials package should be enough.
+
+:: how to use ::
+
+:: developing ::
+
+Just run make to have the test suite built and executed. After that you're on your own.
+
+Bye!
