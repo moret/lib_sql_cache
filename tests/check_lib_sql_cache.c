@@ -4,7 +4,7 @@
 
 START_TEST (lib_sql_cache_test)
 {
-    fail_unless (lib_sql_cache_function() == 42, "Wrong meaning of life, the universe and everything.");
+    fail_unless(lib_sql_cache_function() == 42, "Wrong meaning of life, the universe and everything.");
 }
 END_TEST
 
