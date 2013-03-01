@@ -26,6 +26,7 @@ int lib_sql_cache_function()
     sqlite3_exec(db, "create table iv(i int, v varchar);", NULL, NULL, NULL);
     sqlite3_exec(db, "insert into iv values (1, 42);", NULL, NULL, NULL);
     sqlite3_exec(db, "select v from iv where i = 1;", db_cb, &life, NULL);
+    sqlite3_close(db);
 
     //What is the meaning of life?
     return life;
